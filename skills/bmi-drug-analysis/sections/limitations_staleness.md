@@ -13,8 +13,11 @@ research quality across all other sections. However:
 ### Cross-check Steps
 1. **Review data recency**: For each section's references, check the most recent date.
    Flag any section relying primarily on data older than 6 months.
-2. **WebSearch** for very recent events — search for the drug name with date filters
-   in the last 30 days to catch anything the other sections might have missed.
+2. **Very recent events** — catch anything other sections may have missed:
+   ```
+   biomcp search article -k "<drug>" --since <30_days_ago> --limit 5
+   ```
+   Also use WebSearch for the drug name filtered to the last 30 days.
 3. **Check BioMCP data freshness**: Note if ClinicalTrials.gov entries appear stale
    (e.g., a trial marked "recruiting" that hasn't been updated in 12+ months).
 

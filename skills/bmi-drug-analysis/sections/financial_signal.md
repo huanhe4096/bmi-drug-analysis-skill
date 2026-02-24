@@ -23,8 +23,10 @@ This section is typically activated when:
 - Sell-side analyst notes summarizing the quarter
 
 ### BioMCP Tools
-- Generally not needed for this section, but `drug get --sections approvals` can
-  help contextualize which products drive which revenue lines.
+- Generally not needed for this section, but approval context can help map revenue:
+  ```
+  biomcp get drug <drug> approvals indications
+  ```
 
 ## Analysis Steps
 1. **Revenue signal**:

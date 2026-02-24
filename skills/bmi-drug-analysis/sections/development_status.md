@@ -8,13 +8,24 @@ what's in the pipeline, and how it all connects.
 ## Data Gathering
 
 ### BioMCP Tools
-1. **`drug get --sections indications,approvals`** — current approved indications and
-   regulatory history.
-2. **`trial search`** with the drug name across all statuses — build the full pipeline
-   picture.
-3. **`trial get`** on key trials — detailed design, endpoints, enrollment status.
-4. **`article search`** for recent publications — published trial results, post-hoc
-   analyses.
+1. **Approved indications and regulatory history**:
+   ```
+   biomcp get drug <drug> indications approvals
+   ```
+2. **Full pipeline view** — all trials across statuses:
+   ```
+   biomcp drug trials <drug> --limit 15
+   biomcp search trial -c <condition> -i <drug> --limit 10
+   ```
+3. **Trial design details** — endpoints, arms, enrollment:
+   ```
+   biomcp get trial <NCT_ID> arms outcomes eligibility
+   ```
+4. **Published results** — recent trial publications and post-hoc analyses:
+   ```
+   biomcp search article -k "<drug>" --since 2023-01-01 --limit 10
+   biomcp get article <PMID> fulltext
+   ```
 
 ### Web Search
 - Company pipeline pages (often more current than ClinicalTrials.gov)

@@ -9,11 +9,26 @@ really shows.
 ## Data Gathering
 
 ### BioMCP Tools
-1. **`trial search`** with the drug name — identify pivotal and key supportive trials.
-2. **`trial get`** on each key trial — detailed results, endpoints, demographics.
-3. **`article search`** for published results — full papers have richer data than
-   registry entries.
-4. **`article get`** on key PMIDs — abstracts with specific numerical outcomes.
+1. **Find all trials** for the drug — pivotal and supportive:
+   ```
+   biomcp drug trials <drug> --limit 15
+   biomcp search trial -c <condition> -i <drug> --limit 10
+   ```
+2. **Get trial details** — results, endpoints, arms, demographics:
+   ```
+   biomcp get trial <NCT_ID> outcomes arms
+   biomcp get trial <NCT_ID> all
+   ```
+3. **Published trial results** — full papers have richer data than registries:
+   ```
+   biomcp search article -k "<drug> phase 3" --since 2022-01-01 --no-preprints --limit 10
+   biomcp search article -k "<drug> randomized" --since 2022-01-01 --limit 5
+   ```
+4. **Full article details** — specific numerical outcomes and methodology:
+   ```
+   biomcp get article <PMID> fulltext
+   biomcp get article <PMID> annotations
+   ```
 
 ### Web Search
 - Published trial results in major journals (NEJM, Lancet, JAMA)

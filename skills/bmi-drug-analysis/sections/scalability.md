@@ -8,9 +8,15 @@ meet growing demand. This matters especially for drugs in high-demand categories
 ## Data Gathering
 
 ### BioMCP Tools
-1. **`drug get --sections shortages`** — check for active or historical drug shortages.
-2. **`drug adverse-events`** — MAUDE data may show device/delivery system issues for
-   injectables.
+1. **Drug shortage data** — active or historical shortages:
+   ```
+   biomcp get drug <drug> shortage
+   ```
+2. **Device/delivery system issues** — MAUDE data for injectables:
+   ```
+   biomcp search adverse-event --type device --manufacturer <company> --limit 5
+   biomcp search adverse-event --type device --device "autoinjector" --limit 5
+   ```
 
 ### Web Search (primary source for this section)
 - Earnings call transcripts discussing capacity, CapEx, manufacturing sites

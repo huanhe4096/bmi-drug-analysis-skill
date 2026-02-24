@@ -8,13 +8,25 @@ where differentiation exists, and how the competitive dynamics are likely to evo
 ## Data Gathering
 
 ### BioMCP Tools
-1. **`disease drugs`** for the primary indication(s) — get all drugs associated with
-   the same disease.
-2. **`drug search`** for each key competitor — basic info and development stage.
-3. **`drug get --sections targets,indications,approvals`** for competitors — mechanism,
-   approved uses, and regulatory status.
-4. **`trial search`** for competitor drugs — what's in their pipeline.
-5. **`article search`** for head-to-head or comparative studies.
+1. **All drugs for the same disease** — map the competitive set:
+   ```
+   biomcp disease drugs <indication>
+   biomcp search drug --indication <indication> --limit 10
+   ```
+2. **Competitor profiles** — basic info and development stage:
+   ```
+   biomcp search drug -q "<competitor>" --limit 5
+   biomcp get drug <competitor> targets indications approvals
+   ```
+3. **Competitor pipelines** — what's in their trials:
+   ```
+   biomcp search trial -c <condition> -i <competitor> --phase 3 --status recruiting --limit 5
+   biomcp drug trials <competitor> --limit 5
+   ```
+4. **Head-to-head and comparative evidence**:
+   ```
+   biomcp search article -k "<drug> vs <competitor>" --since 2022-01-01 --limit 5
+   ```
 
 ### Web Search
 - Market share and prescription data (IQVIA, Symphony Health reports)

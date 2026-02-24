@@ -8,12 +8,26 @@ wrong and how likely is it?
 ## Data Gathering
 
 ### BioMCP Tools
-1. **`drug adverse-events`** — FAERS data for post-marketing safety signals.
-2. **`article search`** for safety-related publications, meta-analyses, black box
-   warnings, or REMS requirements.
-3. **`trial search`** filtering for suspended or terminated trials — understand what
-   failed and why.
-4. **`drug get --sections label`** — check for existing safety warnings on the label.
+1. **Post-marketing safety signals** — FAERS data:
+   ```
+   biomcp search adverse-event --drug <drug> --serious --limit 10
+   biomcp drug adverse-events <drug> --limit 10
+   biomcp search adverse-event --type recall --drug <drug> --limit 5
+   ```
+2. **Safety publications** — meta-analyses, black box warnings, REMS:
+   ```
+   biomcp search article -k "<drug> safety" --since 2023-01-01 --limit 5
+   biomcp search article -k "<drug> adverse events" --limit 5
+   ```
+3. **Failed or terminated trials** — understand what went wrong:
+   ```
+   biomcp search trial -c <condition> -i <drug> --status terminated --limit 5
+   biomcp search trial -c <condition> -i <drug> --status suspended --limit 5
+   ```
+4. **Existing label warnings** — current safety information:
+   ```
+   biomcp get drug <drug> label
+   ```
 
 ### Web Search
 - FDA safety communications, MedWatch alerts, Dear Healthcare Provider letters

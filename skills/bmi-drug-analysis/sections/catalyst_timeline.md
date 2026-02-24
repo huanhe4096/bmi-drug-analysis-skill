@@ -8,12 +8,20 @@ catalysts, each with an estimated date and potential impact.
 ## Data Gathering
 
 ### BioMCP Tools
-1. **`trial search`** with the drug name — filter by `RECRUITING` and
-   `ACTIVE_NOT_RECRUITING` status to find trials approaching readout.
-2. **`trial get`** on each relevant NCT ID — pull primary completion dates,
-   estimated study completion dates, and primary endpoints.
-3. **`drug get --sections approvals`** — check for pending supplemental applications
-   or PDUFA dates.
+1. **Search active trials** approaching readout:
+   ```
+   biomcp search trial -c <condition> -i <drug> --status recruiting --limit 10
+   biomcp search trial -c <condition> -i <drug> --status active_not_recruiting --limit 10
+   ```
+2. **Get trial details** — pull completion dates, endpoints, and timeline:
+   ```
+   biomcp get trial <NCT_ID> outcomes
+   biomcp get trial <NCT_ID> all
+   ```
+3. **Check regulatory pipeline** — pending supplemental applications or PDUFA dates:
+   ```
+   biomcp get drug <drug> approvals
+   ```
 
 ### Web Search
 - Company investor relations pages for guidance on upcoming milestones
