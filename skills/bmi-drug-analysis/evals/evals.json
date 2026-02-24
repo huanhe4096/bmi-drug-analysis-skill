@@ -1,0 +1,51 @@
+{
+  "skill_name": "bmi-drug-analysis",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Analyze tirzepatide using the Stephen_Strange persona. No special runtime instructions.",
+      "expected_output": "A final.json report with rational, evidence-based analysis across all sections defined in the tirzepatide drug instruction file, with GREEN/YELLOW/RED status and a probabilistic summary.",
+      "files": [],
+      "expectations": [
+        "A final.json file is created in the reports/tirzepatide/ directory",
+        "The JSON has meta, summary, and sections keys",
+        "meta.analyzer_persona is Stephen_Strange",
+        "meta.drug_generic is tirzepatide",
+        "summary.status is one of GREEN, YELLOW, or RED",
+        "summary.content is 150-300 words",
+        "Each section has a non-empty references array",
+        "At least 4 sections are present (Catalyst Timeline, Development Status, Competitive Landscape, Risks and Uncertainties)",
+        "The writing tone is analytical and probabilistic, consistent with the Stephen_Strange persona"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Run a tirzepatide analysis with the Thor_Odinson persona. Runtime instructions: Eli Lilly just reported Q4 earnings with Mounjaro/Zepbound revenue beating expectations. Focus on the supply ramp and demand signals.",
+      "expected_output": "A bold, conviction-driven report that includes a Financial Signal section given the earnings focus, with aggressive language and strong calls.",
+      "files": [],
+      "expectations": [
+        "A final.json file is created in the reports/tirzepatide/ directory",
+        "meta.analyzer_persona is Thor_Odinson",
+        "A Financial Signal section is included (since runtime instructions reference earnings)",
+        "The writing uses bold, emphatic language consistent with Thor_Odinson",
+        "summary.status reflects a strong conviction (not wishy-washy)",
+        "Runtime instructions about earnings and supply ramp are reflected in the content",
+        "Each section has references with real sources"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Analyze semaglutide (oral) as Steve_Rogers. No special instructions.",
+      "expected_output": "Since no drug instruction file exists for semaglutide, the skill should use default sections and inform the user. The report should be conservative and thorough.",
+      "files": [],
+      "expectations": [
+        "The skill notes that no drug instruction file exists for semaglutide and uses defaults",
+        "A final.json file is created in the reports/semaglutide/ directory",
+        "Default sections are used: Catalyst Timeline, Development Status, Competitive Landscape, Risks and Uncertainties, Regulatory Path",
+        "meta.analyzer_persona is Steve_Rogers",
+        "The writing is cautious and measured, with proper hedging language",
+        "Each section has references"
+      ]
+    }
+  ]
+}
