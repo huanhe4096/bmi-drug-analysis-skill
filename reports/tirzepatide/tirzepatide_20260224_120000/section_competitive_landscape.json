@@ -1,0 +1,76 @@
+{
+  "name": "Competitive Landscape",
+  "content": "## Current Competitive Positioning\n\nTirzepatide (Zepbound/Mounjaro) holds an empirically defensible lead in the injectable anti-obesity class, anchored by head-to-head evidence. In Q4 2025, Zepbound generated $4.2 billion in U.S. revenue (+122% year-over-year); combined Zepbound and Mounjaro 2025 revenue exceeded $36 billion (Eli Lilly Q4 2025 Earnings, February 2026). By GLP-1 prescription volume, Ozempic leads at ~31.5% of class share, Mounjaro ~23.4%, and Zepbound ~11.6%, reflecting its earlier launch vintage (IQVIA, September 2025).\n\n## Key Competitors Deep-Dive\n\n**Semaglutide (Wegovy/Ozempic, Novo Nordisk):** The SURMOUNT-5 Phase 3b head-to-head trial (n=751 adults with obesity, no T2D) established tirzepatide's superiority at 72 weeks: -20.2% mean weight loss versus -13.7% for semaglutide (p<0.001); absolute loss 22.8 kg vs. 15.0 kg (Jastreboff et al., NEJM, May 2025; PMID 40353578). The ~6.5 percentage-point separation is unlikely to be fully attributable to the open-label design. Gastrointestinal discontinuation rates also favored tirzepatide (2.7% vs. 5.6%). Novo's response is multi-pronged: oral Wegovy (25 mg once-daily semaglutide) received FDA approval on December 22, 2025 — the first oral GLP-1 approved for weight management (FDA NDA218316) — delivering 16.6% mean weight loss in OASIS 4 under adherent conditions. This materially changes the access and convenience calculus but does not close the efficacy gap versus injectable tirzepatide.\n\n**Orforglipron (Eli Lilly, oral GLP-1):** Lilly's own oral small-molecule candidate complicates the portfolio picture. ATTAIN-1 (obesity, Phase 3) showed 12.4% mean weight loss at 72 weeks; ATTAIN-2 (obesity with T2D) showed 10.5% with A1C reduction of 1.3-1.8% (Lancet, November 2025; PMID 41275875). ATTAIN-MAINTAIN confirmed weight maintenance after transitioning from injectable therapy. Lilly filed NDAs with the FDA and Japanese regulators; CEO David Ricks indicated an anticipated U.S. approval in Q2 2026 timed to Medicare GLP-1 coverage (Lilly Q4 2025 Earnings). At ~12% efficacy versus ~20% for injectable tirzepatide, orforglipron is positioned as a convenience/access expansion rather than a direct cannibalization of Zepbound.\n\n## Emerging Pipeline Threats\n\n**CagriSema (Novo Nordisk):** This amylin/GLP-1 combination achieved 22.7% mean weight loss in REDEFINE 1 (n=3,417, 68 weeks; NEJM 2025) and 15.7% in REDEFINE 2 (T2D population). It missed its pre-specified 25% weight loss target, tempering expectations. Novo filed for first regulatory approval in Q1 2026. CagriSema's efficacy approaches but does not definitively exceed tirzepatide's SURMOUNT-5 result; the probability of label-level superiority remains uncertain pending head-to-head data that does not currently exist.\n\n**MariTide (maridebart cafraglutide, Amgen):** This monthly GIP receptor antagonist/GLP-1 agonist antibody conjugate showed 12.3-16.2% mean weight loss by ITT at 52 weeks in Phase 2, with no weight plateau observed (NEJM, June 2025; PMID 40549887). Phase 3 (VANQUISH-equivalent) is initiating. Monthly dosing is structurally differentiated; however, Phase 2 efficacy falls short of injectable tirzepatide's efficacy ceiling. I assess the probability of Phase 3 superiority versus tirzepatide as below 30% based on current effect sizes.\n\n**VK2735 (Viking Therapeutics):** A GLP-1/GIP dual agonist in both subcutaneous and oral formulations. The Phase 3 VANQUISH-1 trial (subcutaneous, 78 weeks) completed enrollment in late 2025 (ClinicalTrials.gov NCT07104500). Phase 2 data showed up to 14.7% weight loss at 13 weeks (subcutaneous). Viking lacks commercial infrastructure to challenge Lilly or Novo independently; a partnership or acquisition outcome is plausible.\n\n**Danuglipron (Pfizer) — discontinued:** Pfizer terminated the danuglipron oral GLP-1 program in April 2025 following a single case of potential drug-induced liver injury and high GI discontinuation rates (>50% across Phase 2b doses). CT-996 (Roche/Genentech oral GLP-1, acquired via Carmot) showed -6.1% placebo-adjusted weight loss at four weeks in Phase 1; Phase 2 results are pending and the program remains early-stage.\n\n## Differentiation Assessment\n\nThree factors support tirzepatide's defensible position: (1) SURMOUNT-5 is the class's only completed head-to-head superiority trial, providing a durable commercial and prescriber narrative; (2) the dual GIP/GLP-1 mechanism appears mechanistically meaningful, with consistent weight loss advantages versus GLP-1-only agents across trials and a lower GI burden; (3) Lilly's own oral pipeline expands the addressable patient pool rather than compressing injectable share.\n\nTwo countervailing risks deserve weight. CagriSema's 22.7% efficacy is within statistical range of tirzepatide's 20.2%, and without a head-to-head trial the hierarchy remains probabilistic. More fundamentally, the approval of oral Wegovy and imminent orforglipron launch redefines the convenience benchmark — injectable tirzepatide must sustain a premium on efficacy grounds alone as oral alternatives become formulary options.",
+  "references": [
+    {
+      "title": "Tirzepatide as Compared with Semaglutide for the Treatment of Obesity (SURMOUNT-5, NEJM)",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2416394",
+      "date": "2025-05-11"
+    },
+    {
+      "title": "PubMed: SURMOUNT-5 (PMID 40353578)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40353578/",
+      "date": "2025-05-11"
+    },
+    {
+      "title": "Zepbound showed superior weight loss over Wegovy in SURMOUNT-5 — Eli Lilly Investor Relations",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/zepbound-tirzepatide-showed-superior-weight-loss-over-wegovy",
+      "date": "2025-05-11"
+    },
+    {
+      "title": "Lilly reports fourth-quarter 2025 financial results and provides 2026 guidance",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-fourth-quarter-2025-financial-results-and-provides",
+      "date": "2026-02-05"
+    },
+    {
+      "title": "FDA Approves Novo Nordisk's Wegovy Pill — First Oral GLP-1 for Weight Loss in Adults (NDA218316)",
+      "url": "https://www.prnewswire.com/news-releases/fda-approves-novo-nordisks-wegovy-pill-the-first-and-only-oral-glp-1-for-weight-loss-in-adults-302648344.html",
+      "date": "2025-12-22"
+    },
+    {
+      "title": "Orforglipron ATTAIN-2 Phase 3 — Lancet (PMID 41275875)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41275875/",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "Lilly's oral GLP-1 orforglipron: third Phase 3 trial success — Eli Lilly Investor Relations",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-oral-glp-1-orforglipron-successful-third-phase-3-trial",
+      "date": "2025-12-18"
+    },
+    {
+      "title": "CagriSema 22.7% weight reduction in REDEFINE 1 — Novo Nordisk / NEJM",
+      "url": "https://www.prnewswire.com/news-releases/cagrisema-2-4-mg--2-4-mg-demonstrated-22-7-mean-weight-reduction-in-adults-with-overweight-or-obesity-in-redefine-1--published-in-nejm-302487770.html",
+      "date": "2025-08-01"
+    },
+    {
+      "title": "Once-Monthly Maridebart Cafraglutide (MariTide) Phase 2 Trial — NEJM (PMID 40549887)",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2504214",
+      "date": "2025-06-20"
+    },
+    {
+      "title": "Viking Therapeutics — Completion of Enrollment in Phase 3 VANQUISH-1 (VK2735)",
+      "url": "https://www.prnewswire.com/news-releases/viking-therapeutics-announces-completion-of-enrollment-in-phase-3-vanquish-1-trial-of-vk2735-302619296.html",
+      "date": "2025-11-06"
+    },
+    {
+      "title": "ClinicalTrials.gov: VK2735 VANQUISH-1 (NCT07104500), accessed 2026-02-24",
+      "url": "https://clinicaltrials.gov/study/NCT07104500",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Pfizer Discontinues Danuglipron for Chronic Weight Management — PharmExec",
+      "url": "https://www.pharmexec.com/view/pfizer-discontinues-development-danuglipron-chronic-weight-management",
+      "date": "2025-04-01"
+    },
+    {
+      "title": "Roche announces positive Phase I results of CT-996 oral GLP-1 receptor agonist",
+      "url": "https://www.roche.com/media/releases/med-cor-2024-07-17",
+      "date": "2024-07-17"
+    },
+    {
+      "title": "IQVIA: Obesity Deep Dive — Unparalleled Launch Success of Mounjaro and Zepbound",
+      "url": "https://www.iqvia.com/locations/united-states/blogs/2025/09/obesity-deep-dive-the-unparalleled-launch-success-of-mounjaro-and-zepbound",
+      "date": "2025-09-01"
+    }
+  ]
+}

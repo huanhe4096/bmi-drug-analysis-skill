@@ -1,0 +1,41 @@
+{
+  "name": "Limitations & Staleness",
+  "content": "## Limitations & Staleness\n\nThis analysis was conducted on 2026-02-24 and is explicitly scoped to the Competitive Landscape section only. The full report template encompasses seven sections — Financial Signal, Development Status, Clinical Trial Evidence, Competitive Landscape, Catalyst Timeline, Scalability, and Risks and Uncertainties — none of which were researched here except the Competitive Landscape. Readers should treat all sections outside that scope as unresearched rather than as indicating absence of material developments.\n\n**Scope gap — Financial Signal (critical).** Eli Lilly reported Q4 2025 earnings on 2026-02-04. Zepbound posted $4.2 billion in U.S. Q4 revenue, a 122% year-over-year increase versus analyst consensus of $3.91 billion; total company revenue reached $19.29 billion against an expected $17.96 billion (CNBC / Eli Lilly IR, 2026-02-04). Full-year 2026 guidance of $80–83 billion also exceeded analyst estimates of $77.62 billion. These are materially positive financial signals. Because the Financial Signal section was not researched in depth, the competitive landscape interpretation does not incorporate the implications of Lilly's accelerating commercial execution or revised cost-of-goods trajectory. This is the most consequential data gap in this report.\n\n**Scope gap — Oral tirzepatide franchise.** As of this writing, no oral tirzepatide formulation is FDA-approved. Lilly's oral GLP-1 asset in late-stage development is orforglipron, a small-molecule GLP-1 receptor agonist distinct from tirzepatide chemically. Orforglipron received a priority review voucher in November 2025 and is expected to receive FDA approval in Q2 2026 for obesity, with a type 2 diabetes submission planned for 2026 (Lilly IR, BioSpace). This pipeline development was flagged by the user as requiring special attention but was not deeply analyzed in the Competitive Landscape section and is entirely absent from sections not written.\n\n**Data recency — Competitive Landscape.** The freshest data point in this analysis is the February 23, 2026 head-to-head CagriSema vs. Zepbound readout (STAT News, 2026-02-23), which confirmed Zepbound's continued superiority over Novo Nordisk's next-generation candidate. The stalest data risks involve market share figures derived from late-2025 prescription volume data, which may not yet reflect February 2026 formulary changes following the tirzepatide shortage resolution in December 2024.\n\n**BioMCP article search (tirzepatide, since 2026-01-01).** Five indexed articles were returned; none reported new clinical safety signals. Literature indexed as of 2026-02-24 lags publication dates by approximately two to four weeks for preprints and longer for peer-reviewed journals. No new FDA safety communications or recalls were identified via the FDA FAERS or recall databases as of this date.\n\n**Recommended follow-ups.** Three specific data points would materially update this analysis: (1) FDA action date for orforglipron in obesity, anticipated Q2 2026; (2) Q1 2026 prescription volume data, expected May 2026, which will clarify whether Zepbound's #1 injectable position is durable post-shortage normalization; and (3) any ClinicalTrials.gov updates to ongoing SURMOUNT extension trials, which have not been refreshed in the past 90 days per BioMCP query results.",
+  "references": [
+    {
+      "title": "Lilly reports fourth-quarter 2025 financial results and provides 2026 guidance",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-fourth-quarter-2025-financial-results-and-provides",
+      "date": "2026-02-04"
+    },
+    {
+      "title": "Eli Lilly (LLY) Q4 2025 Earnings — Zepbound $4.2B revenue, beats expectations (CNBC)",
+      "url": "https://www.cnbc.com/2026/02/04/eli-lilly-lly-earnings-q4-2025.html",
+      "date": "2026-02-04"
+    },
+    {
+      "title": "Lilly's Path to $94B in Revenue Rests on Oral Obesity Market and Other 2026 Milestones (BioSpace)",
+      "url": "https://www.biospace.com/business/lillys-path-to-94b-in-revenue-rests-on-oral-obesity-market-and-other-2026-milestones",
+      "date": "2026-01-01"
+    },
+    {
+      "title": "Novo's obesity drug CagriSema falls short in trial versus Zepbound (STAT News)",
+      "url": "https://www.statnews.com/2026/02/23/novo-nordisk-cagrisema-fail-comparison-trial-zepbound-eli-lilly-obesity/",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "Zepbound (tirzepatide) receives FDA approval for multi-dose KwikPen",
+      "url": "https://www.biotechreality.com/2026/02/zepbound-tirzepatide-kwikpen-fda-approval-weight-management.html",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "BioMCP article search: tirzepatide, since 2026-01-01, accessed 2026-02-24",
+      "url": "biomcp:search:article:tirzepatide:2026-01-01",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "What to Know About Orforglipron Oral GLP-1 (Eli Lilly)",
+      "url": "https://www.lilly.com/news/stories/what-to-know-about-orforglipron",
+      "date": "2025-11-01"
+    }
+  ]
+}
