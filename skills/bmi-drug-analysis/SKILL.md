@@ -164,7 +164,23 @@ Compile everything into `final.json` and save it to `reports/<drug_generic>/<run
 
 **Directory creation**: Create `reports/<drug_generic>/<run_id>/` before saving.
 
-After saving, tell the user where the report is and show them the summary + status as a quick preview.
+### Step 5: Generate the Markdown Report
+
+After saving `final.json`, convert it to a human-readable `report.md` using the bundled script:
+
+```bash
+python scripts/convert_to_report.py reports/<drug_generic>/<run_id>/final.json
+```
+
+This creates `report.md` in the same directory as `final.json`. The markdown report includes:
+- Title with status badge (🟢/🟡/🔴)
+- Metadata table (drug, company, persona, date, run ID)
+- Executive summary with overall assessment
+- Table of contents with anchor links
+- Each section with its content and per-section reference list
+- Footer with generation metadata
+
+After both files are saved, tell the user where the report is and show them the summary + status as a quick preview.
 
 ## Language
 
@@ -187,3 +203,4 @@ After saving, tell the user where the report is and show them the summary + stat
 | Section instructions | `sections/<name>.md` | How to research and write each section type |
 | Section writer agent | `agents/section_writer.md` | Subagent execution instructions |
 | BioMCP guide | `references/biomcp-guide.md` | How to use BioMCP tools effectively |
+| JSON→Markdown converter | `scripts/convert_to_report.py` | Convert final.json to report.md |
